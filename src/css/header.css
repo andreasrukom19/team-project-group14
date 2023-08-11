@@ -16,9 +16,12 @@
 }
 
 .icon-logo,
-.icon-button,
 .mob-icon-button {
   fill: var(--blue-font);
+}
+
+.icon-button {
+  stroke: var(--blue-font);
 }
 
 button {
