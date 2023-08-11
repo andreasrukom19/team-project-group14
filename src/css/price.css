@@ -1,4 +1,4 @@
-.price-section {
+.container {
   width: 100%;
   padding: 64px 16px;
 }
@@ -46,14 +46,14 @@
 }
 
 @media screen and (min-width: 375px) {
-  .price-section {
+  .container {
     max-width: 375px;
     margin: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .price-section {
+  .container {
     max-width: 704px;
     padding: 100px 32px;
   }
@@ -69,7 +69,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .price-section {
+  .container {
     max-width: 1096px;
     padding: 100px 172px;
   }
