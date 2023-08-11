@@ -83,12 +83,17 @@
     align-items: center;
   }
 
-  .price-item-name:hover::before {
+  .price-item-name::before {
     content: '';
     background-color: var(--blue-font);
-    display: block;
-    width: 50px;
+    width: 0;
     height: 3px;
     margin-right: 20px;
+    transition: width 500ms;
+  }
+
+  .price-item-name:hover::before {
+    width: 50px;
+    transition: width 500ms;
   }
 }
