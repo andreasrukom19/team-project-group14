@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     max-width: 375px;
+<<<<<<< Updated upstream
     margin: 0 auto;
     padding: 0 15px 0 15px;  
    
@@ -11,6 +12,17 @@
     background: var(--light-blue, #F7FAFF);
   
   }
+=======
+    margin: 0 auto; 
+   
+  }
+ .tab-container {
+    background: var(--light-blue, #F7FAFF);
+    padding: 0 16px 30px;
+    margin-bottom: 30px;
+ }
+  
+>>>>>>> Stashed changes
   .title {
       color: var(--blue-font, #0A224A);
   font-family: Roboto;
@@ -52,11 +64,15 @@
   }
   .mob-contr {
     max-width: 170px;
+<<<<<<< Updated upstream
   }
   .benefits-list {
     margin: 0 auto;
     margin-bottom: 14px;
    
+=======
+    margin: 0 auto;
+>>>>>>> Stashed changes
   }
   .amount {
     text-align: center;
@@ -66,6 +82,10 @@
   font-weight: 400;
   line-height: 75px; 
   text-transform: uppercase;
+<<<<<<< Updated upstream
+=======
+  margin-bottom: 14px;
+>>>>>>> Stashed changes
   }
   .statics {
     text-align: center;
@@ -75,6 +95,7 @@
   font-weight: 400;
   line-height: 24px;
   }
+<<<<<<< Updated upstream
 
   @media (min-width: 768px) {
     .container {
@@ -83,6 +104,19 @@
     max-width: 567px;
     margin: 0 auto;
    }
+=======
+.furniture .bgrd {
+    background: none;
+}
+  @media (min-width: 768px) {
+    .container {
+     max-width: 704px;
+    }
+     .tab-container {
+      padding: 36px 64px;
+      margin-bottom: 30px;
+     }
+>>>>>>> Stashed changes
    .subtitle {
     font-size: 32px;
     line-height: 1.4;
@@ -103,7 +137,21 @@
      font-size: 18px;
     }
  }
+<<<<<<< Updated upstream
  @media (min-width: 1158px) {
     .container {
     max-width: 1128px;}
+=======
+ @media (min-width: 1440px) {
+    .container {
+    max-width: 1320px;}
+    .bgrd {
+        display: flex;
+        gap: 24px;
+    }
+    .tab-container {
+        padding: 36px 69px 37px;
+        margin-bottom: 30px;
+       }
+>>>>>>> Stashed changes
  }
