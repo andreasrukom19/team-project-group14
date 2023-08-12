@@ -1,3 +1,4 @@
+
  .container {
     margin: 0 auto;
 }
@@ -66,11 +67,7 @@
 }
 .img-bestseller-desk {
     display: none;
-} */
-@media screen  and (min-width: 1140px) {
-    
-    
-}
+} *
     
 
 
