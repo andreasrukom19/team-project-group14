@@ -1,0 +1,9 @@
+.bestseller-title {
+color: var(--blue-font, #0A224A);
+font-size: 28px;
+font-weight: 400;
+line-height: 1.5;
+text-transform: uppercase;
+text-align: center;
+}
+    
