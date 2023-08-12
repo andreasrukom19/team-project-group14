@@ -1,14 +1,15 @@
 .container {
     width: 100%;
-    min-width: 320px;
-    padding: 0 15px;
+    min-width: 375px;
     margin: 0 auto;
+    height: 100%;
 }
 .hero-container {
     background-image: url(../img/hero-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 140px 10px 313px 10px;
+    
+    margin-top: 64px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -24,7 +25,7 @@
     font-size: 28px;
     font-weight: 400;
     line-height: 1.5;
-    margin-top: 140px;
+    padding-top: 140px;
     margin-bottom: 14px;
     max-width: 285px;
     text-transform: uppercase;
@@ -41,7 +42,7 @@
 }
 
 .hero-link {
-    margin-bottom: 313px;
+   
     color: var(--white-color);
     font-family: Roboto;
     font-size: 16px;
@@ -62,11 +63,14 @@
 .hero-link:hover {
     background-color: #061835;
 }
+.div-text-btn {
+    padding-bottom: 313px;
+}
 
 @media screen and (min-width: 768px) {
     .container {
 
-        max-width: 712px;
+        max-width: 786px;
 
     }
 
@@ -115,7 +119,7 @@
 
     }
     .div-text-btn {
-
+padding-bottom: 0;
     }}
     
     
@@ -133,19 +137,28 @@
             background-size: auto, auto, auto;
             background-position: bottom left,  bottom center, top right;
             background-repeat: no-repeat, no-repeat, no-repeat;
+            position: relative;
 
         }
-        /* .bg-img-second {
-            background-image: url(../img/3hero.jpg);
-            background-size: 312px;
-            background-repeat: no-repeat;
-            background-position: top;
-            
-        } */
+                @media (min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    .bg-img {
+                    background-image:  url(../img/1hero2x.jpg),
+                            url(../img/2hero2x.jpg),
+                            url(../img/3hero2x.jpg);
+                    }}
+        
         .hero-text {
             font-size: 18px;
          }
          .div-text-btn {
+            
             margin-left: auto;
+            margin-top: 59px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translate(-50px, -40px);
          }
                 }
