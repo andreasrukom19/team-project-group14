@@ -1,27 +1,27 @@
 .container {
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto; 
-  }
-
-.tab-container {
+  width: 100%;
+  height: 100%;
+  max-width: 375px;
+  margin: 0 auto; 
+ 
+}
+.about-container {
   background: var(--light-blue, #F7FAFF);
   padding: 64px 16px;
 }
-  
-.title {
-  color: var(--blue-font, #0A224A);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  left: 50px;
-  margin-bottom: 30px;
-  position: relative;
-}
+.about-title {
+    color: var(--blue-font, #0A224A);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+left: 50px;
+margin-bottom: 30px;
+position: relative;
 
-.title::after {
+}
+.about-title::after {
   content: "";
   position: absolute;
   width: 30px; 
@@ -30,101 +30,90 @@
   left: -50px; 
   top: 50%; 
 }
-
-.subtitle {
+.about-subtitle {
   color: var(--blue-font, #0A224A);
-  font-family: Roboto;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: 1.5;
-  margin-bottom: 30px;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 1.5;
+margin-bottom: 30px;
 }
-.description {
+.about-description {
   font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-bottom: 30px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+margin-bottom: 30px;
 }
 .mob-contr {
   max-width: 170px;
   margin: 0 auto;
 }
-
-.amount {
+.about-amount {
   text-align: center;
-  font-family: Roboto;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 75px; 
-  text-transform: uppercase;
-  margin-bottom: 14px;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 75px; 
+text-transform: uppercase;
+margin-bottom: 14px;
 }
-
-.statics {
+.about-statics {
   text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
 }
 
-.furniture {
-  background: none;
-}
-
-  @media (min-width: 768px) {
-    .container {
-      max-width: 768px;
-      padding: 0 32px;
-    }
-    .tab-container {
-      padding: 36px 64px;
-    }
-    .subtitle {
-    font-size: 32px;
-    line-height: 1.4;
-    }
-    .description {
-      font-size: 18px;
-    }
-    .benefits-list {
-      display: flex;
-      gap: 33px;
-      max-width: 100%;     
-    }
-    .benefits-list-item {
-      flex-basis: calc((100% - 66px) / 3); 
-    }
-    .statics {
-      text-align: start;
-      font-size: 18px;
-    }
-}
-
-@media (min-width: 1440px) {
-  .about {
-    padding-top: 100px;
-  }
-
+@media (min-width: 768px) {
   .container {
-    max-width: 1440px;
-    padding: 0 60px;
+   max-width: 768px;
+   padding: 0 32px;
   }
-
+   .about-container {
+    padding: 36px 64px;
+    margin-bottom: 30px;
+   }
+ .about-subtitle {
+  font-size: 32px;
+  line-height: 1.4;
+ }
+ .about-description {
+  font-size: 18px;
+ }
+  .about-list {
+   display: flex;
+   gap: 33px;
+   max-width: 100%;     
+  }
+  .about-list-item {
+   flex-basis: calc((100% - 66px) / 3); 
+  }
+  .about-statics {
+   text-align: start;
+   font-size: 18px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+   max-width: 1440px;
+  padding: 0 60px;}
   .bgrd {
-    display: flex;
-    gap: 24px;
-    align-items: center;
+   display: flex;
+   gap: 24px;
   }
-  .tab-container {
+  .about-container {
     max-width: 760px;
-    padding: 36px 69px 34px;
-    margin-bottom: 0;
-  }
+    padding: 36px 69px 37px; 
+    margin: 20px 0;      
+}
+  .about-amount {
+     margin-bottom: 19px;
+}
 }
