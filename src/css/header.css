@@ -59,6 +59,11 @@ button {
   line-height: 1.5;
 }
 
+.mob-button {
+  width: 32px;
+  height: 32px;
+}
+
 @media screen and (max-width: 1439px) {
   .mob-menu {
     display: flex;
@@ -100,8 +105,13 @@ button {
     height: 16px;
   }
 
-  .mob-icon-button,
-  .icon-button {
+  .mob-icon-button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-button,
+  .mob-button {
     width: 40px;
     height: 40px;
   }
