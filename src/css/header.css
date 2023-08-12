@@ -16,9 +16,12 @@
 }
 
 .icon-logo,
-.icon-button,
 .mob-icon-button {
   fill: var(--blue-font);
+}
+
+.icon-button {
+  stroke: var(--blue-font);
 }
 
 button {
@@ -29,25 +32,6 @@ button {
   padding: 0;
 }
 
-@media screen and (max-width: 1440px) {
-  .mob-menu {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--white-color);
-
-    overflow-y: scroll;
-    z-index: 2;
-
-    transform: translate(0%, 0%) scale(1);
-    transition: transform 650ms cubic-bezier(0.4, 0, 0.5, 1);
-  }
-}
-
 .mob-header {
   background-color: var(--light-blue);
   display: flex;
@@ -55,15 +39,6 @@ button {
   justify-content: space-between;
   padding: 0 16px;
   margin-bottom: 114px;
-}
-
-@media screen and (max-width: 1440px) {
-  .is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transform: translate(-100%, 0%) scale(1);
-  }
 }
 
 .mob-nav {
@@ -84,6 +59,37 @@ button {
   line-height: 1.5;
 }
 
+.mob-button {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 1439px) {
+  .mob-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--white-color);
+
+    overflow-y: scroll;
+    z-index: 5;
+
+    transform: translate(0%, 0%) scale(1);
+    transition: transform 650ms cubic-bezier(0.4, 0, 0.5, 1);
+  }
+
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translate(-100%, 0%) scale(1);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header-container {
     padding: 0 32px;
@@ -99,8 +105,13 @@ button {
     height: 16px;
   }
 
-  .mob-icon-button,
-  .icon-button {
+  .mob-icon-button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-button,
+  .mob-button {
     width: 40px;
     height: 40px;
   }
