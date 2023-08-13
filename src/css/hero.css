@@ -4,6 +4,7 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+
 .hero-container {
     background-image: url(../img/hero-mob.jpg);
     background-repeat: no-repeat;
@@ -111,41 +112,41 @@
         color: var(--blue-font)
     }
 
-    .hero-link {
+    .hero-link {}
 
-    }
-    .div-text-btn {
+    .div-text-btn {}
+}
 
-    }}
-    
-    
-    
-    @media screen and (min-width: 1140px) {
+
+
+@media screen and (min-width: 1140px) {
     .container {
 
         max-width: 1140px;
     }
-        
-        .bg-img {
-            background-image: none;
-            background-image: url(../img/1hero.jpg),
-                url(../img/2hero.jpg), url(../img/3hero.jpg);
-            background-size: auto, auto, auto;
-            background-position: bottom left,  bottom center, top right;
-            background-repeat: no-repeat, no-repeat, no-repeat;
 
-        }
-        /* .bg-img-second {
+    .bg-img {
+        background-image: none;
+        background-image: url(../img/1hero.jpg),
+            url(../img/2hero.jpg), url(../img/3hero.jpg);
+        background-size: auto, auto, auto;
+        background-position: bottom left, bottom center, top right;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+
+    }
+
+    /* .bg-img-second {
             background-image: url(../img/3hero.jpg);
             background-size: 312px;
             background-repeat: no-repeat;
             background-position: top;
             
         } */
-        .hero-text {
-            font-size: 18px;
-         }
-         .div-text-btn {
-            margin-left: auto;
-         }
-                }
+    .hero-text {
+        font-size: 18px;
+    }
+
+    .div-text-btn {
+        margin-left: auto;
+    }
+}
