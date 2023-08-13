@@ -3,7 +3,6 @@
   background-color: var(--blue-font);
   padding-top: 36px;
   padding-bottom: 16px;
-  position: relative;
 }
 .footer-container {
   padding-left: 15px;
@@ -21,6 +20,7 @@
   align-items: center;
   margin-bottom: 42px;
 }
+
 .footer-nav-list {
   display: flex;
   flex-direction: column;
@@ -101,7 +101,6 @@
   .footer {
     padding-top: 46px;
     padding-bottom: 36px;
-    /* position: relative; */
   }
   .footer-container {
     max-width: 768px;
@@ -110,11 +109,13 @@
   }
   .footer-logo {
     max-width: 127px;
-    height: 16px;
-    margin-bottom: 32px;
+
+    /* margin-bottom: 32px; */
   }
+
   .footer-nav-list {
     gap: 16px;
+    margin-bottom: 64px;
     /* position: absolute;
     left: 384px; */
 
@@ -123,12 +124,12 @@
 
   .footer-navigation {
     display: flex;
-    gap: 214px;
+    gap: 249px;
+    /* padding: 8px; */
   }
   .base-container {
     justify-content: space-between;
     align-items: start;
-    margin-bottom: 164px;
   }
   .social-link {
     max-width: 40px;
@@ -141,11 +142,7 @@
   .footer-nav-link {
     font-size: 18px;
   }
-  .footer-nav-list {
-    padding: 8px;
-    gap: 16px;
-    margin-bottom: 0;
-  }
+
   .footer-address {
     position: absolute;
     top: 60px;
@@ -155,12 +152,12 @@
     font-size: 19px;
     letter-spacing: 0.01em;
     gap: 24px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
   }
 
   .social-container {
     right: 32px;
-    top: 0;
+    top: 0px;
   }
   .time {
     margin-bottom: 64px;
@@ -168,15 +165,51 @@
   .email {
     display: block;
   }
+  .footer-agree {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
+  }
+  .base-container {
+    margin-bottom: 155px;
+  }
 }
 /**------------------------------------ desktop version--------------------- */
 @media screen and (min-width: 1440px) {
+  .footer {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    position: relative;
+  }
   .footer-container {
     max-width: 1440px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .footer-navigation {
+    gap: 217px;
+  }
+  .footer-address {
+    position: absolute;
+    top: 67px;
+    left: 60px;
   }
   .footer-nav-list {
     flex-direction: row;
     gap: 30px;
-    /* transform: translateY(-25%); */
+    transform: translateY(-25%);
+  }
+  .contacts-list {
+    flex-wrap: wrap;
+    width: 820px;
+    height: 70px;
+    gap: 24px 87px;
+    margin-bottom: 0;
+  }
+  .time {
+    margin-bottom: 0;
+  }
+  .base-container {
+    margin-bottom: 127px;
   }
 }
