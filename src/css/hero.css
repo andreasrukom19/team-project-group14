@@ -1,15 +1,11 @@
-.container {
-    width: 100%;
-    min-width: 320px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+
 
 .hero-container {
     background-image: url(../img/hero-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 140px 10px 313px 10px;
+    padding-top: 140px;
+    padding-bottom: 313px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -25,7 +21,6 @@
     font-size: 28px;
     font-weight: 400;
     line-height: 1.5;
-    margin-top: 140px;
     margin-bottom: 14px;
     max-width: 285px;
     text-transform: uppercase;
