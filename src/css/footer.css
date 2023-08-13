@@ -109,23 +109,16 @@
   }
   .footer-logo {
     max-width: 127px;
-
-    /* margin-bottom: 32px; */
   }
 
   .footer-nav-list {
     gap: 16px;
     margin-bottom: 64px;
-    /* position: absolute;
-    left: 384px; */
-
-    /* transform: translateY(-15%); */
   }
 
   .footer-navigation {
     display: flex;
     gap: 249px;
-    /* padding: 8px; */
   }
   .base-container {
     justify-content: space-between;
@@ -152,7 +145,6 @@
     font-size: 19px;
     letter-spacing: 0.01em;
     gap: 24px;
-    /* margin-bottom: 24px; */
   }
 
   .social-container {
@@ -197,7 +189,7 @@
   .footer-nav-list {
     flex-direction: row;
     gap: 30px;
-    transform: translateY(-25%);
+    /* transform: translateY(-25%); */
   }
   .contacts-list {
     flex-wrap: wrap;
