@@ -1,9 +1,4 @@
-.container {
-    width: 100%;
-    min-width: 375px;
-    margin: 0 auto;
-    height: 100%;
-}
+
 .hero-container {
     background-image: url(../img/hero-mob.jpg);
     background-repeat: no-repeat;
