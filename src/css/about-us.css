@@ -1,8 +1,4 @@
-.about-container {
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto; 
-  }
+
 
 .about-content {
   background: var(--light-blue, #F7FAFF);
@@ -114,7 +110,6 @@
   }
 
   .about-container {
-    max-width: 1440px;
     padding: 0 60px;
   }
 
