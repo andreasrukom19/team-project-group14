@@ -1,4 +1,7 @@
-
+.about-container {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .about-content {
   background: var(--light-blue, #F7FAFF);
