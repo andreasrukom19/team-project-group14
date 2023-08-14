@@ -6,7 +6,7 @@
 }
 .hero-container {
     padding-top: 140px;
-    padding-bottom: 313px;
+
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -69,39 +69,20 @@
     background-image: none;
 }
 .hero-container {
-    position: relative; /*--для позиціонування заголовка-- */
     padding-top: 64px;
-    padding-bottom: 100px; 
-    }
-/* .bg-img {
-    width: 100%;
-    height: 70vh; --без зазначення цієї висоти картинки зміщуються вниз--
-    display: flex; --для розміщення картинок в ряд- */
 
+    }
 .bg-img {
     background-image: url(../img/1hero-tab.jpg), url(../img/2hero-tab.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, right;
     background-size: 308px 329px, 364px 531px;
     display: flex;
-    gap: 25px;
     margin-right: 25px;
-    height: 70vh;
+    padding-bottom: 378px;
+    
 }
-/* .first-bg-img {
-    background-image: url(../img/1hero-tab.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    width: 100%;
-    background-position: bottom left;
-}
-.second-bg-img {
-    background-image: url(../img/2hero-tab.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    width: 100%;
-    background-position: bottom right;
-} */
+
 
  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -115,10 +96,7 @@
     font-size: 50px;
     max-width: 648px;
     color: var(--blue-font);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(32px, 64px);
+    margin-bottom: 0;
     }
 
 .hero-text {
@@ -136,36 +114,17 @@
 .hero-container {
     display: flex;
 }
-/* .first-bg-img {
-    background-image: url(../img/1hero.jpg);
-    background-repeat: no-repeat;
-    background-size: 310px 329px;
-    width: 100%;
-    background-position: bottom left;
-}
-.second-bg-img {
-    background-image: url(../img/2hero.jpg);
-    background-repeat: no-repeat;
-    background-size: 648px 530px;
-    width: 100%;
-    background-position: bottom center;
-}
-.third-bg-img{
-    background-image: url(../img/3hero.jpg);
-    background-repeat: no-repeat;
-    background-size: 312px 337px;
-    width: 100%;
-    height: 70vh;
-    background-position: top right;
-} */
+
 .bg-img {
     background-image: url(../img/1hero.jpg), url(../img/2hero.jpg);
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom left, right;
+    background-position: bottom left, bottom right;
     background-size: 310px 329px, 648px 530px;
     display: flex;
     width: 986px;
     margin-right: 25px;
+    padding-bottom: 378px;
+
 }
 .third-bg-img {
     background-image: url(../img/3hero.jpg);
@@ -174,10 +133,11 @@
     width: 100%;
     height: 70vh;
     background-position: top right;
+    display: flex; 
     
 }
 .hero-title {
-    transform: translate(60px, 64px);
+
 }
 .hero-text {
     font-size: 18px;
