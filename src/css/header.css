@@ -35,6 +35,7 @@ button {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 114px;
+  padding: 28px 16px;
 }
 
 .mob-nav {
@@ -69,7 +70,6 @@ button {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 28px 16px;
     background-color: var(--white-color);
 
     overflow-y: scroll;
@@ -91,10 +91,6 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .mob-menu {
-    padding: 32px 28px;
-  }
-
   .header-logo {
     padding: 28px 0;
   }
@@ -116,7 +112,7 @@ button {
   }
 
   .mob-header {
-    padding: 0 32px;
+    padding: 28px 32px;
     margin-bottom: 150px;
   }
 
@@ -133,7 +129,9 @@ button {
   .header-logo {
     padding: 0;
   }
-
+  .mob-menu {
+    padding: 0;
+  }
   .button-header,
   .mob-header {
     display: none;
