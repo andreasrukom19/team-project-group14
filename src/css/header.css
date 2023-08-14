@@ -19,11 +19,11 @@
   z-index: 3;
 }
 
-.logo {
+.header-logo {
   padding: 32px 0;
 }
 
-.icon-logo,
+.header-icon-logo,
 .mob-icon-button {
   fill: var(--blue-font);
 }
@@ -114,11 +114,11 @@ button {
     height: 95px;
   }
 
-  .logo {
+  .header-logo {
     padding: 28px 0;
   }
 
-  .icon-logo {
+  .header-icon-logo {
     width: 127px;
     height: 16px;
   }
@@ -154,7 +154,7 @@ button {
     max-width: 1440px;
   }
 
-  .logo {
+  .header-logo {
     padding: 0;
   }
 
