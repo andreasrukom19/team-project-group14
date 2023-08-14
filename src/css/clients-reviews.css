@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --blue-font: #0a224a;
   --light-blue: #f7faff;
   --main-font: 'Roboto', sans-serif;
@@ -15,7 +15,7 @@
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -24,7 +24,7 @@
   font-family: var(--main-font);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.77; /* 177.778% */
+  line-height: 1.77;
   text-transform: uppercase;
 }
 .time-online {
@@ -32,14 +32,14 @@
   font-family: var(--main-font);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
 }
 .review {
   color: var(--blue-font, #0a224a);
   font-family: var(--main-font);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.42; /* 142.857% */
+  line-height: 1.42;
 }
 
 .image-people {
@@ -160,4 +160,4 @@
   .client-container {
     padding: 60px 0;
   }
-}
+} */

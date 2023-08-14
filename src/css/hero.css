@@ -1,14 +1,11 @@
-.container {
-    width: 100%;
-    min-width: 320px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.hero-container {
+
+
+/* .hero-container {
     background-image: url(../img/hero-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 140px 10px 313px 10px;
+    padding-top: 140px;
+    padding-bottom: 313px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -17,14 +14,13 @@
     .hero-container {
         background-image: url(../img/hero-mob2x.jpg)
     }
-}
+} */
 
-.hero-title {
+/* .hero-title {
     font-family: Playfair Display, Raleway;
     font-size: 28px;
     font-weight: 400;
     line-height: 1.5;
-    margin-top: 140px;
     margin-bottom: 14px;
     max-width: 285px;
     text-transform: uppercase;
@@ -61,9 +57,9 @@
 
 .hero-link:hover {
     background-color: #061835;
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .container {
 
         max-width: 712px;
@@ -111,41 +107,41 @@
         color: var(--blue-font)
     }
 
-    .hero-link {
+    .hero-link {}
 
-    }
-    .div-text-btn {
+    .div-text-btn {}
+} */
 
-    }}
-    
-    
-    
-    @media screen and (min-width: 1140px) {
+
+
+/* @media screen and (min-width: 1140px) {
     .container {
 
         max-width: 1140px;
     }
-        
-        .bg-img {
-            background-image: none;
-            background-image: url(../img/1hero.jpg),
-                url(../img/2hero.jpg), url(../img/3hero.jpg);
-            background-size: auto, auto, auto;
-            background-position: bottom left,  bottom center, top right;
-            background-repeat: no-repeat, no-repeat, no-repeat;
 
-        }
-        /* .bg-img-second {
+    .bg-img {
+        background-image: none;
+        background-image: url(../img/1hero.jpg),
+            url(../img/2hero.jpg), url(../img/3hero.jpg);
+        background-size: auto, auto, auto;
+        background-position: bottom left, bottom center, top right;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+
+    } */
+
+    /* .bg-img-second {
             background-image: url(../img/3hero.jpg);
             background-size: 312px;
             background-repeat: no-repeat;
             background-position: top;
             
         } */
-        .hero-text {
-            font-size: 18px;
-         }
-         .div-text-btn {
-            margin-left: auto;
-         }
-                }
+    /* .hero-text {
+        font-size: 18px;
+    }
+
+    .div-text-btn {
+        margin-left: auto;
+    }
+} */
