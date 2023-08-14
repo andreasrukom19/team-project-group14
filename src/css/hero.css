@@ -78,9 +78,9 @@
     background-image: url(../img/1hero-tab.jpg), url(../img/2hero-tab.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, right;
-    background-size: 308px 329px, 364px 531px;
+    background-size: 308px 289px,
+        367px 531px;
     display: flex;
-    margin-right: 25px;
     padding-bottom: 378px;
     height: 70vh;
     
