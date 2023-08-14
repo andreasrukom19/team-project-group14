@@ -91,8 +91,12 @@
   fill: var(--white-color);
   width: 100%;
   height: 100%;
+  transition: transform 0.3s ease;
 }
 
+.footer-social-list-item svg:hover {
+  transform: scale(1.2);
+}
 .footer-agree {
   color: var(--white-color);
   text-align: center;
@@ -182,14 +186,20 @@
   }
   .footer-main {
     /* width: 838px; */
-    display: grid;
-    grid-template-columns: repeat(2, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .footer-row {
+    margin-bottom: 35px;
   }
 
   .footer-navigation {
     display: flex;
-
+    order: 0;
     width: 502px;
+    margin-left: 217px;
   }
   .footer-nav-list {
     flex-direction: row;
