@@ -1,5 +1,6 @@
 .subscription {
-    padding-bottom: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 /* 
   @media screen and (max-width:375px) {
