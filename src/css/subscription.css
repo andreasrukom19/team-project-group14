@@ -15,6 +15,10 @@
 /* margin-top: 64px; */
 }
 
+.subscription-desktop-form {
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -27,6 +31,7 @@
   text-transform: uppercase;
   line-height: 1.5;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .subscription-paragraph {
@@ -78,13 +83,13 @@ font-weight: 400;
 line-height: 1.50;
   }
 
-  .sub-checkbox {
+  /* .sub-checkbox {
     margin-bottom: 30px;
-  }
+  } */
 
   
-  .checkbox  {
-
+  .modal-checkbox {
+margin-bottom: 30px;
   }
 
   .cb-label {
@@ -166,8 +171,10 @@ line-height: 1.50;
     .subscription {
         /* margin-top: 100px; */
         }
-        .title {
-            display: none;
+       
+
+        .subscription-desktop-form {
+            margin-bottom: 64px;
         }
         
         
@@ -181,12 +188,13 @@ line-height: 1.50;
           line-height: 1.40;
           text-transform: uppercase;
           margin-bottom: 30px;
+          text-align: left;
         }
         
         .subscription-paragraph {
             color: var(--blue-font, #0A224A);
             font-family: Roboto;
-            width: 536px;
+            /* width: 536px; */
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -237,14 +245,14 @@ font-weight: 400;
 line-height: 1.50;
           }
         
-          .sub-checkbox {
+          /* .sub-checkbox {
             margin-bottom: 30px;
           }
-        
+         */
           
-          .checkbox  {
-        
-          }
+          .modal-checkbox {
+            margin-bottom: 30px;
+              }
         
           .cb-label {
             color: #7A7A7A;
@@ -333,8 +341,17 @@ line-height: 1.50;
     .subscription {
         /* margin-top: 100px; */
         }
-        .title {
-            display: none;
+       
+
+        .subscription-desktop {
+            display: flex;
+            align-items: center;
+    justify-content: space-between;
+
+        }
+
+        .subscription-desktop-form {
+            margin-bottom: 0x;
         }
         
         
@@ -404,14 +421,14 @@ font-weight: 400;
 line-height: 1.50;
           }
         
-          .sub-checkbox {
+          /* .sub-checkbox {
             margin-bottom: 30px;
-          }
+          } */
         
           
-          .checkbox  {
-        
-          }
+          .modal-checkbox {
+            margin-bottom: 32px;
+              }
         
           .cb-label {
             color: #7A7A7A;
