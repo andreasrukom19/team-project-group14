@@ -107,11 +107,7 @@
   .about {
     padding-top: 100px;
   }
-
-  .about-container {
-    padding: 0 60px;
-  }
-
+  
   .bgrd {
     display: flex;
     gap: 24px;
