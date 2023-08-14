@@ -1,5 +1,5 @@
 .hero-section {
-    background-image: url(./img/hero-mob.jpg);
+    background-image: url(../img/hero-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -14,7 +14,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero-container {
-        background-image: url(./img/hero-mob2x.jpg)
+        background-image: url(../img/hero-mob2x.jpg)
     }
 }
 
@@ -75,7 +75,7 @@
 
     }
 .bg-img {
-    background-image: url(./img/1hero-tab.jpg), url(./img/2hero-tab.jpg);
+    background-image: url(../img/1hero-tab.jpg), url(../img/2hero-tab.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, right;
     background-size: 308px 329px, 364px 531px;
@@ -91,7 +91,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .bg-img {
-            background-image: url(./img/1hero-tab2x.jpg), url(./img/2hero-tab2x.jpg);
+            background-image: url(../img/1hero-tab2x.jpg), url(../img/2hero-tab2x.jpg);
         }
     }
 
@@ -120,7 +120,7 @@
 }
 
 .bg-img {
-    background-image: url(./img/1hero.jpg), url(./img/2hero.jpg);
+    background-image: url(../img/1hero.jpg), url(../img/2hero.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, bottom right;
     background-size: 310px 329px, 648px 530px;
@@ -131,7 +131,7 @@
 
 }
 .third-bg-img {
-    background-image: url(./img/3hero.jpg);
+    background-image: url(../img/3hero.jpg);
     background-repeat: no-repeat;
     background-size: 312px 337px;
     width: 100%;
