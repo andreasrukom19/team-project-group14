@@ -78,10 +78,6 @@
 }
 
   @media (min-width: 768px) {
-    .about-container {
-      max-width: 768px;
-      padding: 0 32px;
-    }
     .about-content {
       padding: 36px 64px;
       margin-bottom: 30px;
