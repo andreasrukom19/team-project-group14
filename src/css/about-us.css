@@ -1,15 +1,11 @@
-.container {
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto; 
-  }
 
-.tab-container {
+
+.about-content {
   background: var(--light-blue, #F7FAFF);
   padding: 64px 16px;
 }
   
-.title {
+.about-title {
   color: var(--blue-font, #0A224A);
   font-family: Roboto;
   font-size: 16px;
@@ -21,7 +17,7 @@
   position: relative;
 }
 
-.title::after {
+.about-title::after {
   content: "";
   position: absolute;
   width: 30px; 
@@ -31,7 +27,7 @@
   top: 50%; 
 }
 
-.subtitle {
+.about-subtitle {
   color: var(--blue-font, #0A224A);
   font-family: Roboto;
   font-size: 28px;
@@ -41,7 +37,7 @@
   line-height: 1.5;
   margin-bottom: 30px;
 }
-.description {
+.about-description {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -54,7 +50,7 @@
   margin: 0 auto;
 }
 
-.amount {
+.about-amount {
   text-align: center;
   font-family: Roboto;
   font-size: 50px;
@@ -65,7 +61,7 @@
   margin-bottom: 14px;
 }
 
-.statics {
+.about-statics {
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -74,34 +70,35 @@
   line-height: 24px;
 }
 
-.furniture {
+.about-furniture {
   background: none;
 }
 
   @media (min-width: 768px) {
-    .container {
+    .about-container {
       max-width: 768px;
       padding: 0 32px;
     }
-    .tab-container {
+    .about-content {
       padding: 36px 64px;
+      margin-bottom: 30px;
     }
-    .subtitle {
+    .about-subtitle {
     font-size: 32px;
     line-height: 1.4;
     }
-    .description {
+    .about-description {
       font-size: 18px;
     }
-    .benefits-list {
+    .about-list {
       display: flex;
       gap: 33px;
       max-width: 100%;     
     }
-    .benefits-list-item {
+    .about-list-item {
       flex-basis: calc((100% - 66px) / 3); 
     }
-    .statics {
+    .about-statics {
       text-align: start;
       font-size: 18px;
     }
@@ -112,8 +109,7 @@
     padding-top: 100px;
   }
 
-  .container {
-    max-width: 1440px;
+  .about-container {
     padding: 0 60px;
   }
 
@@ -122,7 +118,7 @@
     gap: 24px;
     align-items: center;
   }
-  .tab-container {
+  .about-content{
     max-width: 760px;
     padding: 36px 69px 34px;
     margin-bottom: 0;
