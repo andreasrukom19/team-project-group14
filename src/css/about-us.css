@@ -10,9 +10,7 @@
   
 .about-title {
   color: var(--blue-font, #0A224A);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   left: 50px;
@@ -32,7 +30,6 @@
 
 .about-subtitle {
   color: var(--blue-font, #0A224A);
-  font-family: Roboto;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -41,7 +38,6 @@
   margin-bottom: 30px;
 }
 .about-description {
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -55,7 +51,6 @@
 
 .about-amount {
   text-align: center;
-  font-family: Roboto;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +61,6 @@
 
 .about-statics {
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
