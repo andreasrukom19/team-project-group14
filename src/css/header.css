@@ -147,5 +147,25 @@ button {
 
   .mob-link {
     padding: 26px 0;
+    position: relative;
+  }
+
+  .mob-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 53px;
+    width: 0;
+    height: 1.5px;
+    background-color: var(--blue-font);
+    transition: width 0.35s;
+  }
+
+  .mob-link:hover:before {
+    width: 100%;
+  }
+
+  .no-scroll {
+    overflow: inherit;
   }
 }
