@@ -130,6 +130,10 @@
     grid-row: 2;
   }
 
+  .address-list {
+    margin-bottom: 0;
+  }
+
   .footer-nav-link {
     font-size: 18px;
   }
