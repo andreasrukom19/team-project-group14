@@ -87,7 +87,7 @@
     
 }
 
-
+@media screen and (max-width: 767px) {
  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -95,6 +95,7 @@
             background-image: url(../img/1hero-tab2x.jpg), url(../img/2hero-tab2x.jpg);
         }
     }
+}
 
 .hero-title {
     font-size: 50px;
