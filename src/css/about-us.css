@@ -9,23 +9,21 @@
 }
   
 .about-title {
-  color: var(--blue-font, #0A224A);
+  color: var(--blue-font, #0a224a);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  left: 50px;
   margin-bottom: 30px;
-  position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
-.about-title::after {
-  content: "";
-  position: absolute;
-  width: 30px; 
-  height: 1px;  
+.about-title::before {
+  content: '';
   background-color: currentColor;
-  left: -50px; 
-  top: 50%; 
+  width: 30px;
+  height: 1px;
+  margin-right: 20px;
 }
 
 .about-subtitle {
