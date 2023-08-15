@@ -342,11 +342,29 @@
 
   .sub-input::placeholder {
     color: var(--grey, #D9D9D9);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.50;
+  }
+
+  .sub-input:invalid:not(:placeholder-shown) {
+    border: 2px solid var(--error-color);
+    outline: transparent;
+    color: var(--error-color);
+  }
+
+  .error-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    fill: transparent;
+  }
+
+  .sub-input:invalid:not(:placeholder-shown) + .error-icon {
+    fill: var(--error-color);
   }
 
   .modal-checkbox {
