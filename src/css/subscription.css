@@ -47,6 +47,7 @@
 
 .input-wrap {
   position: relative;
+  max-width: 536px;
 }
 
 .sub-input {
@@ -198,7 +199,6 @@
   }
 
   .input-wrap {
-    position: relative;
     margin-bottom: 20px;
   }
 
@@ -344,7 +344,6 @@
   }
 
   .input-wrap {
-    position: relative;
     margin-bottom: 20px
   }
 
