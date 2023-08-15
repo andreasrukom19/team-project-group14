@@ -1,7 +1,3 @@
-.bestseller-main-content {
-  margin-bottom: 64px;
-}
-
 .bestseller-section {
   padding-top: 100px;
 }
@@ -40,7 +36,8 @@
   line-height: 1.5;
   margin-bottom: 30px;
 }
-.img-bestseller {
+
+.bestselers-list-item {
   margin-bottom: 30px;
 }
 
@@ -62,7 +59,6 @@
   .bestseller-main-content {
     display: flex;
     flex-direction: column;
-    margin-bottom: 68px;
   }
 
   .bestseller-title {
@@ -87,15 +83,15 @@
     margin-bottom: 32px;
   }
 
-  .img-bestseller {
-    margin-bottom: 32px;
-  }
-
   .bestselers-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .bestselers-list-item {
+    margin-bottom: 32px;
   }
 
   .bestseller-text {
@@ -122,7 +118,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 75px;
   }
 
   .bestselers-list-container {
@@ -137,7 +132,7 @@
     margin-top: 15px;
   }
 
-  .img-bestseller {
+  .bestselers-list-item {
     margin-bottom: 25px;
   }
 }
