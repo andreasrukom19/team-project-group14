@@ -1,141 +1,143 @@
 .bestseller-main-content {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 .bestseller-section {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .bestseller-title {
-    color: var(--blue-font, #0A224A);
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 21px;
+  color: var(--blue-font, #0A224A);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 21px;
 }
 .bestseller-text {
-    color: var(--blue-font, #0A224A);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    margin-top: 14px;
+  color: var(--blue-font, #0A224A);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  margin-top: 14px;
 }
 
 .bestseller-price {
-    color: var(--blue-font, #0A224A);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5;
-    margin-bottom: 30px;
+  color: var(--blue-font, #0A224A);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 .main-bestseller-price {
-    color: var(--blue-font, #0A224A);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5;
-    margin-bottom: 30px;
+  color: var(--blue-font, #0A224A);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 .img-bestseller {
-    margin-bottom: 30px;
-    }
+  margin-bottom: 30px;
+}
 
 .img-main-bestseller {
-    margin-bottom: 30px;
-    }
+  margin-bottom: 30px;
+}
 
 .hide-mob {
-    display: none;
-    }
+  display: none;
+}
 
     /* ------------------TAB----------------------- */
 
 @media screen and (min-width: 768px) {
-.hide-mob {
-     display: block;
-        }
+  .hide-mob {
+    display: block;
+  }
 
-.bestseller-main-content {
+  .bestseller-main-content {
     display: flex;
     flex-direction: column;
     margin-bottom: 68px;
-        }
+  }
 
-.bestseller-title {
+  .bestseller-title {
     font-size: 32px;
     margin-bottom: 30px;
-        }
+  }
 
-.bestseller-text {
+  .bestseller-text {
     font-size: 18px;
     margin-top: 15px;
-        }
+  }
 
-.bestseller-price {
+  .bestseller-price {
     font-size: 18px;
-        }
+  }
 
-.main-bestseller-price {
+  .main-bestseller-price {
     font-size: 18px;
-        }
-.main-bestseller {
-    margin-bottom: 32px;
-        }
+  }
 
-.img-bestseller {
+  .main-bestseller {
     margin-bottom: 32px;
-        }
+  }
 
-.bestselers-list {
+  .img-bestseller {
+    margin-bottom: 32px;
+  }
+
+  .bestselers-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-        }
-.bestseller-text {
+  }
+
+  .bestseller-text {
     font-size: 18px;
     margin-bottom: 10px;
-                }
+  }
 
-    .bestseller-price {
+  .bestseller-price {
     font-size: 18px;
     margin-bottom: 30px;
-    }
+  }
 }
 
 /* ---------------DESKTOP--------------- */
 
 @media screen and (min-width: 1440px) {
-    .bestseller-container {
-        max-width: 1156px;
-        padding: 0 32px;
-    }
+  .bestseller-container {
+    max-width: 1156px;
+    padding: 0 32px;
+  }
 
-    .bestseller-main-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 75px;
-    }
+  .bestseller-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 75px;
+  }
 
-    .bestselers-list-container {
-        max-width: calc(50% - 15px);
-    }
+  .bestselers-list-container {
+      max-width: calc(50% - 15px);
+  }
 
-    .img-main-bestseller {
-        max-width: calc(50% - 5px);
-    }
+  .img-main-bestseller {
+    max-width: calc(50% - 5px);
+  }
 
-    .bestseller-text {
-        margin-top: 15px;
-    }
+  .bestseller-text {
+    margin-top: 15px;
+  }
 
-    .img-bestseller {
-        margin-bottom: 25px;
-    }
+  .img-bestseller {
+    margin-bottom: 25px;
+  }
 }
