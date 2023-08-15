@@ -7,10 +7,6 @@
   --white-color: #FFF;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -47,6 +43,10 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
   .container {
     max-width: 1440px;
     padding: 0 60px;
