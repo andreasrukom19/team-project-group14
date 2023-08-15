@@ -1,15 +1,15 @@
-.container.product-container {
-    padding-top: 64px;
+.products {
+  padding-top: 64px;
 }
 
-.product-container h2 {
+.products-title {
     color: var(--blue-font);
     font-size: 32px;
     font-weight: 400;
     line-height: 1.4;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .products-item h3 {
@@ -17,7 +17,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 .products-list {
