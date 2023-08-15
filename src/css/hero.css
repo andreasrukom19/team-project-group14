@@ -44,7 +44,6 @@
 .hero-link {
     display: block;
     color: var(--white-color);
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -52,8 +51,7 @@
     padding: 12px 65px;
     background-color: var(--blue-font);
     max-width: 224px;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .hero-link:focus {
