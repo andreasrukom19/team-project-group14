@@ -164,4 +164,8 @@ button {
   .mob-link:hover:before {
     width: 100%;
   }
+
+  .no-scroll {
+    overflow: inherit;
+  }
 }
