@@ -14,9 +14,10 @@
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .hero-section {
-        background-image: url(../img/hero-mob2x.jpg)
-    }
+  .hero-section {
+    background-image: url(../img/hero-mob2x.jpg);
+    background-size: 375px auto;
+  }
 }
 
 .hero-title {
@@ -67,15 +68,15 @@
 
 @media screen and (min-width: 768px) {
     
-.hero-section {
+  .hero-section {
     background-image: none;
-}
-.hero-container {
+  }
+  .hero-container {
     padding-top: 64px;
     padding-bottom: 100px;
+  }
 
-    }
-.bg-img {
+  .bg-img {
     background-image: url(../img/1hero-tab.jpg), url(../img/2hero-tab.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, right;
@@ -83,45 +84,42 @@
         367px 531px;
     display: flex;
     padding-bottom: 378px;
-    height: 530px;
-    
-}
+    height: 530px; 
+  }
 
-@media screen and (max-width: 1439px) {
- @media (min-device-pixel-ratio: 2),
+  @media screen and (max-width: 1439px) {
+    @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .bg-img {
-            background-image: url(../img/1hero-tab2x.jpg), url(../img/2hero-tab2x.jpg);
-        }
+      .bg-img {
+        background-image: url(../img/1hero-tab2x.jpg), url(../img/2hero-tab2x.jpg);
+      }
     }
-}
+  }
 
-.hero-title {
+  .hero-title {
     font-size: 50px;
     max-width: 648px;
     color: var(--blue-font);
     margin-bottom: 0;
-    }
+  }
 
-.hero-text {
+  .hero-text {
     font-size: 16px;
     max-width: 312px;
-    margin-top: 32px;
-
-    
-    }
+    margin-top: 32px; 
+  }
 }
 /* -------------DESKTOP-------------------- */
 
 @media screen and (min-width: 1440px) {
 
-.hero-container {
+  .hero-container {
     display: flex;
     padding-bottom: 0;
-}
+  }
 
-.bg-img {
+  .bg-img {
     background-image: url(../img/1hero.jpg), url(../img/2hero.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, bottom right;
@@ -131,8 +129,8 @@
     margin-right: 25px;
     padding-bottom: 378px;
 
-}
-.third-bg-img {
+  }
+  .third-bg-img {
     background-image: url(../img/3hero.jpg);
     background-repeat: no-repeat;
     background-size: 312px 337px;
@@ -141,21 +139,16 @@
     background-position: top right;
     display: flex; 
     
-}
-.hero-title {
+  }
 
-}
-.hero-text {
+  .hero-text {
     font-size: 18px;
-    }
+  }
 
 
-.img-text {
+  .img-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.div-text-btn {
-
-    }
+  }
 }
